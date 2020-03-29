@@ -1,0 +1,56 @@
+
+.locations {
+    margin: 120px 0;
+
+    .location-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: solid 1px #9c9c9c;
+
+        img {
+            object-fit: contain;
+            margin: 40px 0;
+        }
+
+        .location-heading {
+            font-family: Montserrat;
+            font-size: 22px;
+            font-weight: bold;
+            line-height: 1.36;
+            text-align: center;
+            color: $blackish;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .single-content {
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 1.43;
+            text-align: center;
+            margin-bottom: 1em;
+
+            .small-heading {
+                font-weight: bold;
+                color: $brownish-grey;
+            }
+
+            .dark-content {
+                font-weight: bold;
+                color: $blackish;
+            }
+
+            .grey-content {
+                color: $brownish-grey;
+            }
+
+
+            &:last-child {
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
